@@ -64,10 +64,12 @@ public class GameManager {
         try(ObjectOutputStream out = new ObjectOutputStream(new FileOutputStream(SAVE_FILE))){
             out.writeObject(highScores);
         }
-
         catch(Exception e) {
             e.printStackTrace();
         }
+    }
+    public void clearScores() {
+        highScores.clear();
     }
     public List<ScoreEntry> getHighScores() {
         return highScores;
