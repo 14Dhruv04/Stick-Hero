@@ -30,3 +30,9 @@ mvn clean javafx:run
 1. Hold **SPACE** to grow the stick.
 2. Release **SPACE** to drop the stick. If the length of the stick is enough to reach the next platform, the hero will succesfully land on the next platform else, the hero will fall. 
 3. Press **SPACE** to flip the hero while moving in order to collect Avocados.
+
+## Future Improvements
+- Add music and implement Sound On/Off option in the Menu.
+
+Download and extract the attached ZIP file and run: `Stick-Hero.exe`
+No separate Java installation is required.
