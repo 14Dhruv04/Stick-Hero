@@ -38,4 +38,4 @@ mvn clean javafx:run
 Download and extract the attached ZIP file and run: `Stick-Hero.exe`
 No separate Java installation is required.
 
-Have a go at it and let me know your thoughts and any improvements that could be made! Thank you.
+Have a go at it!
